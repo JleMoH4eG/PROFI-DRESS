@@ -1,0 +1,132 @@
+/*Обнуляющий стиль*/
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	scroll-behavior: smooth;
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+.wrapper{
+	cursor: default;
+}
+
+/*Общее*/
+
+.button {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 3px solid #A65E34;
+	text-align: center;
+	transition: 0.5s;
+	z-index: 1;
+	&:before {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		background-color: #A65E34;
+		transition: 0.4s;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		background-color: #A65E34;
+		transition: 0.4s;
+	}
+	@media (hover: hover) {
+		&:hover {
+			color: #A65E34;
+			&:before, &:after {
+				width: 0;
+			}
+		}
+	}
+	&:active {
+		transform: scale(0.95);
+		transition: 0.1s;
+	}
+}
+
+/*Шрифт*/
+//Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+//Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+//Georgia
+@font-face {
+	font-family: 'Georgia';
+	src: url('../#source/fonts/georgia.eot');
+	src: local('☺'), url('../#source/fonts/georgia.woff') format('woff'), url('../#source/fonts/georgia.ttf') format('truetype'), url('../#source/fonts/georgia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Сетка*/
+
+.container {
+	padding: 0 170px;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+//1050px
+@media (max-width: 65.625em) {
+	.container {
+		padding: 0 100px;
+	}
+}
+//800px
+@media (max-width: 50em) {
+	.container {
+		padding: 0 50px;
+	}
+}
+//530px
+@media (max-width: 33.125em) {
+	.container {
+		padding: 0 33px;
+	}
+}
+//<375px
+@media (max-width: 21.5625em) {
+	.container {
+		padding: 0 10px;
+	}
+}

@@ -1,0 +1,380 @@
+@media (max-width: 50em) {
+  .common__logo-line {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+@media (max-width: 37.5em) {
+  .common {
+    padding-top: 2.625rem;
+  }
+  .common__logo-line {
+    margin-bottom: 2.6rem;
+  }
+}
+@media (max-width: 41.5em) {
+  .assortment__item {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 22.625rem;
+    min-width: none;
+  }
+  .assortment__items-row {
+    margin: 0;
+  }
+}
+@media (max-width: 48em) {
+  .free-samples {
+    background: url("../img/free-samples/bg-mobile.png") 0 0/cover no-repeat;
+  }
+}
+@media (max-width: 78.0625em) {
+  .goods__row {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .goods__item {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+}
+@media (max-width: 48em) {
+  .orderLine01__phone-field-title {
+    display: none;
+  }
+  .orderLine01__title {
+    margin-bottom: 1.125rem;
+  }
+  .orderLine01__form-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .orderLine01__telField {
+    margin-right: 0;
+    margin-bottom: 1.0625rem;
+    max-width: 22.625rem;
+  }
+  .orderLine01__button {
+    max-width: 22.625rem;
+  }
+  .orderLine01__bg-img:after {
+    width: 25%;
+  }
+}
+@media (max-width: 81.25em) {
+  .confidence__factory-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .confidence__factory-item {
+    text-align: left;
+    margin-bottom: 1.25rem;
+  }
+  .confidence__factory-item br {
+    display: none;
+  }
+  .confidence__factory-item:first-child {
+    margin-bottom: 1.5625rem;
+    text-align: center;
+  }
+  .confidence__factory-item:nth-child(3) {
+    text-align: center;
+  }
+  .confidence__factory-item:last-child {
+    text-align: right;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 71.875em) {
+  .confidence__factory-item:nth-child(2) {
+    text-align: center;
+  }
+  .confidence__factory-item:last-child {
+    text-align: center;
+  }
+}
+@media (max-width: 46.25em) {
+  .confidence__why-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 1.0625rem;
+  }
+  .confidence__why-item-icon {
+    margin-right: 1.3125rem;
+  }
+  .confidence__why-item {
+    margin-bottom: 0.9375rem;
+  }
+  .confidence__title {
+    margin-bottom: 0.6875rem;
+    text-align: center;
+  }
+  .confidence__title-block {
+    margin-right: 0;
+  }
+  .confidence__title-continue {
+    margin-bottom: 1.0625rem;
+    text-align: center;
+  }
+}
+@media (max-width: 30.3125em) {
+  .confidence__factory-item br {
+    display: block;
+  }
+}
+@media (max-width: 48em) {
+  .orderLine02__title br {
+    display: none;
+  }
+  .orderLine02__form-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .orderLine02__telField {
+    margin-right: 0;
+    margin-bottom: 1.0625rem;
+  }
+  .orderLine02__bg-img01 {
+    width: 7.75rem;
+    top: -4.25;
+    left: 0;
+  }
+  .orderLine02__bg-img02 {
+    width: 8.3rem;
+    top: -3.625rem;
+    right: 0;
+  }
+}
+@media (max-width: 92.75em) {
+  .trust__img-wrapper {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%;
+  }
+  .trust__images-line02 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media (max-width: 67.9375em) {
+  .trust__images-line02 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 60%;
+            flex: 0 1 60%;
+    margin: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media (max-width: 65.625em) {
+  .trust__images-line02 {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 59.1875em) {
+  .trust__images-line02 {
+    margin: 0;
+  }
+}
+@media (max-width: 48em) {
+  .trust__images-line02 {
+    margin: 0 auto;
+  }
+  .trust__img-wrapper {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 26%;
+            flex: 0 1 26%;
+  }
+  .trust__img-wrapper:nth-child(10) {
+    display: none;
+  }
+  .trust__img-wrapper img {
+    max-width: 100%;
+  }
+  .trust__images-line02 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+  .trust__images-line02 div img {
+    max-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (max-width: 81.25em) {
+  .production {
+    padding-bottom: 28.126rem;
+  }
+  .production__founder-text-block {
+    right: auto;
+    left: 6.6%;
+    top: 92.3%;
+  }
+  .production__founder-text {
+    max-width: none;
+    width: 70vw;
+  }
+  .production__founder-info {
+    margin-left: 0;
+  }
+}
+@media (max-width: 64em) {
+  .production {
+    padding-bottom: 25rem;
+  }
+}
+@media (max-width: 48.0625em) {
+  .production {
+    padding-bottom: 22rem;
+  }
+  .production__images-line {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 13px;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
+    margin: 0 -7.5px 7.0625rem -7.5px;
+  }
+  .production__img-wrapper {
+    padding: 0 7.5px;
+  }
+  .production__img-wrapper:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 54%;
+            flex: 0 1 54%;
+  }
+  .production__img-wrapper:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .production__two-images-column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 46%;
+            flex: 0 1 46%;
+    row-gap: 13px;
+    min-width: 100px;
+    padding: 0 7.5px;
+  }
+  .production__founder {
+    max-width: 100%;
+    position: relative;
+  }
+  .production__founder-text {
+    width: 100%;
+  }
+  .production__founder-text-block {
+    width: 84%;
+  }
+}
+@media (max-width: 23.4375em) {
+  .production__images-line {
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 64em) {
+  .orderLine03__bg-img01 {
+    bottom: auto;
+    top: -15.68%;
+  }
+  .orderLine03__bg-img02 {
+    top: -16.1%;
+  }
+}
+@media (max-width: 48em) {
+  .orderLine03__title br {
+    display: none;
+  }
+  .orderLine03__form-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .orderLine03__telField {
+    margin-right: 0;
+    margin-bottom: 1.0625rem;
+  }
+}
+@media (max-width: 84.9375em) {
+  .footer__row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__links-row {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    text-align: center;
+  }
+  .footer__links-row br {
+    display: block;
+  }
+  .footer__link:first-child {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+  }
+}
+@media (max-width: 50em) {
+  .footer__row {
+    -webkit-column-gap: 12%;
+       -moz-column-gap: 12%;
+            column-gap: 12%;
+  }
+  .footer__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+  }
+  .footer__icons-row {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+}
+@media (max-width: 37.5em) {
+  .footer__icons-row {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 35%;
+            flex: 0 1 35%;
+  }
+  .footer__row {
+    -webkit-column-gap: 8%;
+       -moz-column-gap: 8%;
+            column-gap: 8%;
+  }
+}
+@media (max-width: 26.5625em) {
+  .footer__icons-row {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+}

@@ -1,0 +1,194 @@
+/* Слайдер */
+.slick-slider{
+	position: relative;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	column-gap: 30px;
+}
+/* Слайд */
+.slick-slide{
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+	position: absolute;
+	width: 74px;
+	height: 4px;
+	background-color: #A65E34;
+	transition: 0.2s;
+	top: 50%;
+	font-size: 0;
+	&:before, &:after {
+		content: '';
+		width: 20px;
+		height: 4px;
+		background-color: #A65E34;
+		position: absolute;
+	}
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	left: 0;
+	&:before {
+		left: -3px;
+		top: 6px;
+		transform: rotate(45deg);
+		border-radius: 0 27% 27% 0;
+	}
+	&:after {
+		left: -3px;
+		top: -6px;
+		transform: rotate(-45deg);
+		border-radius: 0 27% 27% 0;
+	}
+	&:active {
+		transform: translate(-10px, 0);
+	}
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	right: 0;
+	&:before {
+		right: -3px;
+		top: 6px;
+		transform: rotate(-45deg);
+		border-radius: 27% 0 0 27%;
+	}
+	&:after {
+		right: -3px;
+		top: -6px;
+		transform: rotate(45deg);
+		border-radius: 27% 0 0 27%;
+	}
+	&:active {
+		transform: translate(10px, 0);
+	}
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{
+	display: flex;
+	justify-content: center;
+}
+.slick-dots li{
+	width: 39px;
+	height: 4.35px;
+	margin-right: 7px;
+	background-color: #C4C4C4;
+	border-radius: 2.6129px;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+/* Активная точка */
+.slick-dots li.slick-active{
+	background-color: #A65E34;
+}
+/* Элемент точки */
+.slick-dots li button{
+	font-size: 0;
+}
+
+/*****************************************************/
+.reviews {
+	.container {
+		padding: 0 50px;
+	}
+	.slick-slider {
+		padding: 0 125px;
+	}
+	.slick-dots {
+		margin-top: 28px;
+	}
+	//<768px
+	@media (max-width: 48em) {
+		.slick-slider {
+			padding: 0;
+		}
+		.slick-track {
+			column-gap: 0;
+		}
+		.slick-slide {
+			margin: 0 10px;
+		}
+	}
+	//530px
+	@media (max-width: 33.125em) {
+		.container {
+			padding: 0 33px;
+		}
+	}
+	//<375px
+	@media (max-width: 21.5625em) {
+		.container {
+			padding: 0 10px;
+		}
+	}
+}
+
+/*****************************************************/
+.goods {
+	//<1249px
+	@media (max-width: 78.0625em) {
+		.container {
+			padding: 0 80px;
+		}
+		.slick-slider {
+			padding: 0 100px;
+		}
+	}
+	//<850px
+	@media (max-width: 53.125em) {
+		.slick-track {
+			column-gap: 0;
+		}
+		.slick-slide {
+			margin: 0 10px;
+		}
+	}
+	//<700px
+	@media (max-width: 43.75em) {
+		.slick-slider {
+			padding: 0 50px;
+		}
+	}
+	//<600px
+	@media (max-width: 37.5em) {
+		.slick-slider {
+			padding: 0;
+		}
+	}
+	//530px
+	@media (max-width: 33.125em) {
+		.container {
+			padding: 0 33px;
+		}
+	}
+	//<375px
+	@media (max-width: 21.5625em) {
+		.container {
+			padding: 0 10px;
+		}
+	}
+}

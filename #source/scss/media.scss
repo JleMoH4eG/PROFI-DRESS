@@ -1,0 +1,417 @@
+//common
+//<800px
+@media (max-width: 50em) {
+	.common__logo-line {
+		align-items: flex-start;
+	}
+}
+//<600px
+@media (max-width: 37.5em) {
+	.common {
+		padding-top: 2.625rem;
+		&__logo-line {
+			margin-bottom: 2.6rem;
+		}
+	}
+}
+
+//assortment
+//<664px
+@media (max-width: 41.5em) {
+	.assortment {
+		&__item {
+			margin: 0 auto;
+			padding: 0;
+			max-width: 22.625rem;
+			min-width: none;
+		}
+		&__items-row {
+			margin: 0;
+		}
+	}
+}
+
+//free-samples
+//<768px
+@media (max-width: 48em) {
+	.free-samples{
+		background: url('../img/free-samples/bg-mobile.png') 0 0/cover no-repeat;
+	}
+}
+
+//good
+//<1249px
+@media (max-width: 78.0625em) {
+	.goods {
+		&__row {
+			-moz-user-select: none;
+			-khtml-user-select: none;
+			user-select: none;
+		}
+		&__item {
+			cursor: grab;
+		}
+	}
+}
+
+//orderLine01
+//<768px
+@media (max-width: 48em) {
+	.orderLine01 {
+		&__phone-field-title {
+			display: none;
+		}
+		&__title {
+			margin-bottom: 1.125rem;
+		}
+		&__form-line {
+			flex-direction: column;
+		}
+		&__telField {
+			margin-right: 0;
+			margin-bottom: 1.0625rem;
+			max-width: 22.625rem;
+		}
+		&__button {
+			max-width: 22.625rem;
+		}
+		&__bg-img {
+			&:after {
+				width: 25%;
+			}
+		}
+	}
+}
+
+//confidence
+//<1300px
+@media (max-width: 81.25em) {
+	.confidence {
+		&__factory-info {
+			flex-direction: column;
+		}
+		&__factory-item {
+			text-align: left;
+			margin-bottom: 1.25rem;
+			br {
+				display: none;
+			}
+			&:first-child {
+				margin-bottom: 1.5625rem;
+				text-align: center;
+			}
+			&:nth-child(3) {
+				text-align: center;
+			}
+			&:last-child {
+				text-align: right;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+//<1150px
+@media (max-width: 71.875em) {
+	.confidence {
+		&__factory-item {
+			&:nth-child(2) {
+				text-align: center;
+			}
+			&:last-child {
+				text-align: center;
+			}
+		}
+	}
+}
+//<740px
+@media (max-width: 46.25em) {
+	.confidence {
+		&__why-line {
+			flex-direction: column;
+			margin-bottom: 1.0625rem;
+		}
+		&__why-item-icon {
+			margin-right: 1.3125rem;
+		}
+		&__why-item {
+			margin-bottom: 0.9375rem;
+		}
+		&__title {
+			margin-bottom: 0.6875rem;
+			text-align: center;
+		}
+		&__title-block {
+			margin-right: 0;
+		}
+		&__title-continue {
+			margin-bottom: 1.0625rem;
+			text-align: center;
+		}
+	}
+}
+//<485px
+@media (max-width: 30.3125em) {
+	.confidence {
+		&__factory-item {
+			br {
+				display: block;
+			}
+		}
+	}
+}
+
+//orderLine02
+//<768px
+@media (max-width: 48em) {
+	.orderLine02 {
+		&__title {
+			br {
+				display: none;
+			}
+		}
+		&__form-line {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__telField {
+			margin-right: 0;
+			margin-bottom: 1.0625rem;
+		}
+		&__bg-img01 {
+			width: 7.75rem;
+			top: -4.25;
+			left: 0;
+		}
+		&__bg-img02 {
+			width: 8.3rem;
+			top: -3.625rem;
+			right: 0;
+		}
+	}
+}
+
+//trust
+//<1484px
+@media (max-width: 92.75em) {
+	.trust {
+		&__img-wrapper {
+			flex: 0 1 25%;
+		}
+		&__images-line02 {
+			flex: 0 1 50%;
+			justify-content: space-around;
+		}
+	}
+}
+//<1087px
+@media (max-width: 67.9375em) {
+	.trust {
+		&__images-line02 {
+			flex: 0 1 60%;
+			margin: 0;
+			justify-content: space-between;
+		}
+	}
+}
+//<1050px
+@media (max-width: 65.625em) {
+	.trust {
+		&__images-line02 {
+			margin: 0 auto;
+		}
+	}
+}
+//<947px
+@media (max-width: 59.1875em) {
+	.trust {
+		&__images-line02 {
+			margin: 0;
+		}
+	}
+}
+//<768px
+@media (max-width: 48em) {
+	.trust {
+		&__images-line02 {
+			margin: 0 auto;
+		}
+		&__img-wrapper {
+			flex: 0 1 26%;
+			&:nth-child(10) {
+				display: none;
+			}
+			img {
+				max-width: 100%;
+			}
+		}
+		&__images-line02 {
+			div {
+				display: flex;
+				flex: 0 1 50%;
+				img {
+					max-width: 100%;
+					object-fit: contain;
+				}
+			}
+		}
+	}
+}
+
+//production
+//<1300px
+@media (max-width: 81.25em) {
+	.production {
+		padding-bottom: 28.126rem;
+		&__founder-text-block {
+			right: auto;
+			left: 6.6%;
+			top: 92.3%;
+		}
+		&__founder-text {
+			max-width: none;
+			width: 70vw;
+		}
+		&__founder-info {
+			margin-left: 0;
+		}
+	}
+}
+//<1024px
+@media (max-width: 64em) {
+	.production {
+		padding-bottom: 25rem;
+	}
+}
+//<768px
+@media (max-width: 48.0625em) {
+	.production {
+		padding-bottom: 22rem;
+		&__images-line {
+			flex-wrap: wrap;
+			row-gap: 13px;
+			column-gap: 0;
+			margin: 0 -7.5px 7.0625rem -7.5px;
+		}
+		&__img-wrapper {
+			padding: 0 7.5px;
+			&:first-child {
+				flex: 0 1 54%;
+			}
+			&:last-child {
+				flex: 0 1 100%;
+			}
+		}
+		&__two-images-column {
+			flex: 0 1 46%;
+			row-gap: 13px;
+			min-width: 100px;
+			padding: 0 7.5px;
+		}
+		&__founder {
+			max-width: 100%;
+			position: relative;
+		}
+		&__founder-text {
+			width: 100%;
+		}
+		&__founder-text-block {
+			width: 84%;
+		}
+	}
+}
+//375px
+@media (max-width: 23.4375em) {
+	.production {
+		&__images-line {
+			margin-bottom: 2.5rem;
+		}
+	}
+}
+
+//orderLine03
+//<1024px
+@media (max-width: 64em) {
+	.orderLine03 {
+		&__bg-img01 {
+			bottom: auto;
+			top: -15.68%;
+		}
+		&__bg-img02 {
+			top: -16.1%;
+		}
+	}
+}
+//<768px
+@media (max-width: 48em) {
+	.orderLine03 {
+		&__title {
+			br {
+				display: none;
+			}
+		}
+		&__form-line {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__telField {
+			margin-right: 0;
+			margin-bottom: 1.0625rem;
+		}
+	}
+}
+
+//footer
+//<1359px
+@media (max-width: 84.9375em) {
+	.footer {
+		&__row {
+			justify-content: space-between;
+		}
+		&__links-row {
+			flex: 0 0 auto;
+			text-align: center;
+			br {
+				display: block;
+			}
+		}
+		&__link {
+			&:first-child {
+				margin-right: 0;
+				margin-bottom: 0.5em;
+			}
+		}
+	}
+}
+//<800px
+@media (max-width: 50em) {
+	.footer {
+		&__row {
+			column-gap: 12%;
+		}
+		&__logo {
+			flex: 0 1 auto;
+		}
+		&__icons-row {
+			flex: 0 0 auto;
+		}
+	}
+}
+//600px
+@media (max-width: 37.5em) {
+	.footer {
+		&__icons-row {
+			flex: 0 1 35%;
+		}
+		&__row {
+			column-gap: 8%;
+		}
+	}
+}
+//425px
+@media (max-width: 26.5625em) {
+	.footer {
+		&__icons-row {
+			flex: 0 1 50%;
+		}
+	}
+}
